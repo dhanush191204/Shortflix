@@ -1,14 +1,18 @@
-import { useState } from 'react'
+import Contentbar from "./Contentbar";
+import Sidebar from "./Sidebar";
+import Topbar from "./Topbar";
 
 
 function App() {
-
   return (
     <>
-      <h1> Hello world.!</h1>
-      
+      <div className="grid grid-cols-5 grid-rows-9 h-screen sticky top-0 ">
+        <Sidebar />
+        <Topbar />
+        <Contentbar />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
