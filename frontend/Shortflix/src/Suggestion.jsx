@@ -2,7 +2,7 @@ import React from 'react'
 
 function Suggestion() {
   return (
-    <div className=' bg-amber-700 '>
+    <div className=' bg-gray-800 '>
       
     </div>
   )

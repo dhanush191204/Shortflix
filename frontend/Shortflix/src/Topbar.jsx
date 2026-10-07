@@ -42,10 +42,10 @@ function Topbar() {
         <div className="flex items-center justify-center  ">
           <div className=" border-2 border-[#9c9d9d] flex items-center  px-1 py-0.5 rounded-4xl ">
             <div className="text-[#9C9D9D] m-0.5 ml-2 mr-1   ">
-              <i class="bi bi-bell-fill text-[#FFFFFF] "></i>
+              <i className="bi bi-bell-fill text-[#FFFFFF] "></i>
             </div>
             <div className="h-7 w-7 rounded-full bg-[#9c9d9d] flex justify-center items-center m-0.5 ">
-              <i class="bi bi-person-circle "></i>
+              <i className="bi bi-person-circle "></i>
             </div>
           </div>
         </div>
