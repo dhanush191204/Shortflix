@@ -10,7 +10,7 @@ function Theme() {
 
   return (
     <>
-      <div onClick={() => setMode(mode === "Night" ? "Day" : "Night")}>
+      <div onClick={() => setMode(mode === "Night" ? "Day" : "Night")} className="transition ">
         {mode === "Night" ? <DayMode /> : <NightMode />}
       </div>
     </>
