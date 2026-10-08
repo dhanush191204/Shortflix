@@ -5,7 +5,7 @@ import SidebarMenu from "./components/SidebarMenu";
 function Sidebar() {
   return (
     <>
-      <div className=" bg-[#111315] row-span-9 sticky top-0 h-191 ">
+      <div className=" bg-[#111315] row-span-9 sticky top-0 ">
         <div className="flex justify-center m-5">
           <img
             className="h-8 relative left-0.5 bottom-0.5 "
